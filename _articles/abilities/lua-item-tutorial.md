@@ -15,7 +15,7 @@ First open up your npc_items_custom.txt in your favourite text editor. (I use no
 {
 }
 ```
-First and most important thing is naming your item. for this example I will use "item_blink_staff". Note that using the same name when referring to this item is important as dota 2 assumes some naming schemes.<br />
+First and most important thing is naming your item. Custom items must have a "item_" prefix to be recognized by the engine. for this example I will use "item_blink_staff". Note that using the same name when referring to this item is important as dota 2 assumes some naming schemes.<br />
 We will also setup unique ID for the item and a base class that tells the game that we are intending to create a lua item.
 ```
 "DOTAAbilities"
